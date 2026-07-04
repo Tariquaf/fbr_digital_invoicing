@@ -7,6 +7,7 @@
  "engine": "InnoDB",
  "field_order": [
   "hs_code",
+  "hs_code_detail",
   "uom"
  ],
  "fields": [
@@ -14,12 +15,19 @@
    "fieldname": "hs_code",
    "fieldtype": "Data",
    "label": "HS Code",
-   "unique": 1
+   "unique": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "hs_code_detail",
+   "fieldtype": "Data",
+   "label": "HS Code Detail"
   },
   {
    "fieldname": "uom",
-   "fieldtype": "Data",
-   "label": "UOM"
+   "fieldtype": "Link",
+   "label": "UOM",
+   "options": "UOM"
   }
  ],
  "grid_page_length": 50,

@@ -33,7 +33,7 @@
    "fieldname": "scenarioid",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "scenarioId",
+   "label": "scenarioID",
    "reqd": 1,
    "unique": 1
   },
